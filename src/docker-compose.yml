@@ -1,0 +1,18 @@
+version: '2'
+services:
+    dev:
+        image: node:5
+        entrypoint: npm run start
+        working_dir: /app
+        ports:
+            - "80:80"
+        volumes:
+            - .:/app
+        links:
+            - mongo
+    mongo:
+        image: mongo:3
+        volumes:
+            - /data/db
+        ports:
+          - "27017:27017"

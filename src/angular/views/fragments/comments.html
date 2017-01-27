@@ -1,0 +1,15 @@
+<div class="modal-header">
+    <!-- comment -->
+    <div class="media" ng-repeat="comment in product.comments">
+        <a class="pull-left" href="#">
+            <img class="media-object" src="http://placehold.it/64x64" alt="">
+        </a>
+        <div class="media-body">
+            <h4 class="media-heading">{{comment.who}}
+                <small>{{comment.date}}</small>
+            </h4>
+            <p>{{comment.contents}}</p>
+            <p><span class="glyphicon glyphicon-star" ng-repeat="a in rating"></span></p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-md-12">
+        <h1>{{product.name}}</h1>
+        <img ng-src="{{product.imageUrl}}" alt="{{product.name}}">
+        <p>{{product.desc}}</p>
+        <p>Cena: {{product.price}}</p>
+        <hr>
+        <!-- comment -->
+        <div class="media" ng-repeat="comment in product.comments">
+            <a class="pull-left" href="#">
+                <img class="media-object" src="http://placehold.it/64x64" alt="">
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading">{{comment.who}}
+                    <small>{{comment.date}}</small>
+                </h4>
+                <p>{{comment.contents}}</p>
+                <p><span class="glyphicon glyphicon-star" ng-repeat="a in rating"></span></p>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="well">
+    <h4>Dodaj komentarz:</h4>
+    <form role="form" ng-submit="submit()">
+        <div class="form-group">
+            <label for="who">Nick:</label>
+            <input ng-model="who" type="text" name="nick" >
+        </div>
+        <div class="form-group">
+            <textarea ng-model="contents" class="form-control" rows="3"></textarea>
+        </div>
+        <button ng-disabled="{{disableSubmit}}" type="submit" class="btn btn-primary">Submit</button>
+        <label>Oceń:</label>
+
+        <span uib-rating ng-model="rate" max="max" on-hover="hoveringOver(value)" on-leave="overStar = null" titles="['one','two','three']" aria-labelledby="default-rating"></span>
+        <span class="label" ng-class="{'label-warning': percent<30, 'label-info': percent>=30 && percent<70, 'label-success': percent>=70}" ng-show="overStar && !isReadonly">{{percent}}%</span>
+    </form>
+</div>

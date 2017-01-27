@@ -1,0 +1,33 @@
+<div class="row">
+    <h1>{{pageTitle}}</h1>
+    <div class="col-md-12">
+        <form class="form" ng-submit="submit()">
+            <div class="form-group">
+                <label for="_id">id</label>
+                <p>{{order._id}}</p>
+            </div>
+            <div class="form-group">
+                <label for="name">imię</label>
+                <p>{{order.firstname}}</p>
+            </div>
+            <div class="form-group">
+                <label for="price">nazwisko</label>
+                <p>{{order.surname}}</p>
+            </div>
+            <div class="form-group">
+                <label for="stars">stolik</label>
+                <p>{{order.table}}</p>
+            </div>
+            <div class="form-group">
+                <label>dania</label>
+                <ul ng-repeat="dish in order.order">
+                    <li>id potrawy: {{dish._id}}</li>
+                    <li>ilość: {{dish.count}}</li>
+                </ul>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn" name="button">zapisz</button>
+            </div>
+        </form>
+    </div>
+</div>

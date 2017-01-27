@@ -1,0 +1,142 @@
+[
+    {
+        "id": "1",
+        "name": "Kebs",
+        "price": 24.99,
+        "desc": "See more snippets like this online store item at Bootsnipp - http://bootsnipp.com.",
+        "comments": [
+            {
+                "contents": "Mój komentarz",
+                "who": "futerzak",
+                "show": true,
+                "date": "2017-01-06 12:01:01",
+                "rating": 5
+            }
+
+        ],
+        "stars": "5",
+        "thumbnailUrl": "http://www.aweeventsatx.com/uploads/3/9/4/8/39486739/8857452_orig.png",
+        "imageUrl": "http://www.aweeventsatx.com/uploads/3/9/4/8/39486739/8857452_orig.png"
+    },
+    {
+        "id": "2",
+        "name": "Sałatka",
+        "price": 64.99,
+        "desc": "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "comments": [
+            {
+                "contents": "Mój komentarz",
+                "who": "futerzak",
+                "show": true,
+                "date": "2017-01-06 12:01:01",
+                "rating": 5
+            }
+
+        ],
+        "stars": "5",
+        "thumbnailUrl": "http://www.villeroy-boch.com/fileadmin/upload/tischkultur/images/themen/2016/Weihnachten/Rezepte/villeroy-boch-entenbrust-rezept-header.jpg",
+        "imageUrl": "http://www.villeroy-boch.com/fileadmin/upload/tischkultur/images/themen/2016/Weihnachten/Rezepte/villeroy-boch-entenbrust-rezept-header.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Grule z kwaśnym mlekiem",
+        "price": 74.99,
+        "desc": "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "comments": [
+            {
+                "contents": "Mój komentarz",
+                "who": "futerzak",
+                "show": true,
+                "date": "2017-01-06 12:01:01",
+                "rating": 5
+            }
+
+        ],
+        "stars": "2",
+        "thumbnailUrl": "http://www.villeroy-boch.com/fileadmin/upload/tischkultur/images/themen/2016/Food-Konzepte/Pasta-Passion/pasta-passion-rezept3-header.jpg",
+        "imageUrl": "http://www.villeroy-boch.com/fileadmin/upload/tischkultur/images/themen/2016/Food-Konzepte/Pasta-Passion/pasta-passion-rezept3-header.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Rosół",
+        "price": 84.99,
+        "desc": "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "comments": [
+            {
+                "contents": "Mój komentarz",
+                "who": "futerzak",
+                "show": true,
+                "date": "2017-01-06 12:01:01",
+                "rating": 5
+            }
+
+        ],
+        "stars": "4.5",
+        "thumbnailUrl": "http://www.glenwoodnyc.com/manhattan-living/wp-content/uploads/2016/09/dirt-candy-vegetarian-dish.jpg",
+        "imageUrl": "http://www.glenwoodnyc.com/manhattan-living/wp-content/uploads/2016/09/dirt-candy-vegetarian-dish.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Golonka z frytami",
+        "price": 94.99,
+        "desc": "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "comments": [
+            {
+                "contents": "Mój komentarz",
+                "who": "futerzak",
+                "show": true,
+                "date": "2017-01-06 12:01:01",
+                "rating": 5
+            },
+            {
+                "contents": "Mój komentarz #2",
+                "who": "futerzak",
+                "show": true,
+                "date": "2017-01-08 12:01:01",
+                "rating": 3
+            }
+
+        ],
+        "stars": "3",
+        "thumbnailUrl": "http://www.villeroy-boch.pl/fileadmin/upload/tischkultur/images/themen/2016/Food-Konzepte/Pasta-Passion/pasta-passion-rezept1-header.jpg",
+        "imageUrl": "http://www.villeroy-boch.pl/fileadmin/upload/tischkultur/images/themen/2016/Food-Konzepte/Pasta-Passion/pasta-passion-rezept1-header.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Parówki z chlebem",
+        "price": 9.99,
+        "desc": "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "comments": [
+            {
+                "contents": "Mój komentarz",
+                "who": "futerzak",
+                "show": true,
+                "date": "2017-01-06 12:01:01",
+                "rating": 5
+            }
+
+        ],
+        "stars": "3",
+        "thumbnailUrl": "http://www.alexreidosleitoes.com/assets/alex-rei-dos-leitoes-11.jpg",
+        "imageUrl": "http://www.alexreidosleitoes.com/assets/alex-rei-dos-leitoes-11.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Sixth Product",
+        "price": 9.99,
+        "desc": "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "comments": [
+            {
+                "contents": "Mój komentarz",
+                "who": "futerzak",
+                "show": true,
+                "date": "2017-01-06 12:01:01",
+                "rating": 5
+            }
+
+        ],
+        "stars": "3",
+        "thumbnailUrl": "http://place-hold.it/320x150",
+        "imageUrl": "http://place-hold.it/960x450"
+    }
+]

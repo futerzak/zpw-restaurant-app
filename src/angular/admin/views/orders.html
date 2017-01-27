@@ -1,0 +1,27 @@
+<div class="row">
+    <h1>{{pageTitle}}</h1>
+    <div class="col-md-12">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+            <tr>
+                <th>id</th>
+                <th>imie</th>
+                <th>nazwisko</th>
+                <th>stolik</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="order in orders">
+                <td>{{order._id}}</td>
+                <td>{{order.firstname}}</td>
+                <td>{{order.surname}}</td>
+                <td>{{order.tableId}}</td>
+                <td><a href="#/order/detail/{{order._id}}"><button class="btn" type="button" name="button">podgląd</button></a></td>
+            </tr>
+            </tbody>
+          </table>
+      </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Kucharz",
+        "phone": "123123123",
+        "email": "kucharz@ufutra.pl"
+    },
+    {
+        "name": "Manager",
+        "phone": "123123123",
+        "email": "manager@ufutra.pl"
+    },
+    {
+        "name": "Szeryf",
+        "phone": "123123123",
+        "email": "szeryf@ufutra.pl"
+    }
+]

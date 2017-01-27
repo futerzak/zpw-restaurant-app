@@ -1,0 +1,42 @@
+<div class="row">
+    <h1>{{pageTitle}}</h1>
+    <div class="col-md-12">
+        <form class="form" ng-submit="submit()">
+            <div class="form-group">
+                <label for="_id"></label>
+                <p>{{product._id}}</p>
+            </div>
+            <div class="form-group">
+                <label for="id">id</label>
+                <input class="form-control" type="text" ng-model="product.id" name="id">
+            </div>
+            <div class="form-group">
+                <label for="name">nazwa</label>
+                <input class="form-control" type="text" ng-model="product.name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="price">cena</label>
+                <input class="form-control" type="text" ng-model="product.price" name="price">
+            </div>
+            <div class="form-group">
+                <label for="desc">opis</label>
+                <textarea ng-model="product.desc" class="form-control" rows="5" name="desc"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="stars">liczba gwiazdek</label>
+                <input class="form-control" type="text" ng-model="product.stars" name="stars">
+            </div>
+            <div class="form-group">
+                <label for="thumbnailUrl">miniaturka potrawy</label>
+                <input class="form-control" type="text" ng-model="product.thumbnailUrl" name="name">
+            </div>
+            <div class="form-group">
+                <label for="imageUrl">zdjęcie potrawy</label>
+                <input class="form-control" type="text" ng-model="product.imageUrl" name="name">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn" name="button">zapisz</button>
+            </div>
+        </form>
+    </div>
+</div>
